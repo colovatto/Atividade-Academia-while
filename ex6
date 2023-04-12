@@ -1,0 +1,12 @@
+            //int idade = 0;
+
+            //while (true) 
+            //{
+            //    Console.WriteLine("Informe a sua idade: ");
+            //    idade = int.Parse(Console.ReadLine());
+
+            //    if (idade > 0) { break; }
+
+            //}
+
+            //Console.WriteLine("Idade digitada: " + idade);
