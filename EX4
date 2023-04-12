@@ -1,0 +1,20 @@
+ //string voto;
+            //int joao = 0, branco = 0, zeca = 0, totalVotos = 0;
+
+
+            //while (true)
+            //{
+            //    Console.WriteLine("Informe seu voto: zeca, joao, branco ou fim para encerrar");
+            //    voto = Console.ReadLine();
+            //    totalVotos++;
+            //    if (voto == "zeca") { zeca++; }
+            //    if (voto == "joao") { joao++; }
+            //    if (voto == "branco") {  branco++; }
+            //    if (voto == "fim") { break; }
+
+
+            //}
+
+            //Console.WriteLine("Votos para zeca: " + zeca);
+            //Console.WriteLine("Votos para joao: " + joao);
+            //Console.WriteLine("Votos em branco: " + branco);
