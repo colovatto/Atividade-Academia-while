@@ -1,0 +1,43 @@
+string nome;
+            int idade = 0;
+            double salario = 0;
+
+            while (true)
+            {
+                Console.WriteLine("Informe seu nome: ");
+                nome = Console.ReadLine();
+
+                if (String.IsNullOrEmpty(nome))
+                {
+                    Console.WriteLine("Nome inválido");
+                    break;
+                }
+                else if (nome.All(Char.IsDigit))
+                {
+                    Console.WriteLine("Console apresenta números: ");
+                    break;
+                }
+
+                Console.WriteLine("Informe sua idade: ");
+                idade = int.Parse(Console.ReadLine());
+                if (idade < 0)
+                {
+                    Console.WriteLine("Idade incorreta! ");
+                    break;
+                }
+
+                Console.WriteLine("Informe seu salário: ");
+                salario = double.Parse(Console.ReadLine());
+                if (salario <= 0)
+                {
+                    Console.WriteLine("Salário incorreto!");
+                    break;
+                }
+
+                Console.WriteLine("Nome: " + nome);
+                Console.WriteLine("Idade: " + idade + " anos");
+                Console.WriteLine("Salário R$" + salario);
+                               
+
+
+            }
