@@ -1,0 +1,23 @@
+ //string voto;
+            //int joao = 0, branco = 0, zeca = 0, nulo = 0, totalVotos = 0;
+
+
+            //while (true)
+            //{
+            //    Console.WriteLine("Informe seu voto: zeca, joao, branco ou fim para encerrar");
+            //    voto = Console.ReadLine();
+            //    totalVotos++;
+            //    if (voto == "zeca") { zeca++; }
+            //    else if (voto == "joao") { joao++; }
+            //    else if (voto == "branco") { branco++; }
+            //    else if (voto == "fim") { break; }
+            //    else { nulo++; }
+
+            //}
+
+            //if (joao > zeca) { Console.WriteLine("O vencedor é João com " + joao + " votos"); }
+            //else if (zeca > joao) { Console.WriteLine("O vencedor é Zeca com " + zeca + " votos"); }
+            //else { Console.WriteLine("Resultado empatado"); }
+
+            //Console.WriteLine("Qtd de votos: " + totalVotos);
+            //Console.WriteLine("Votos nulos: " + nulo);
