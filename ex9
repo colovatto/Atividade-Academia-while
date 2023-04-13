@@ -1,0 +1,30 @@
+int filhos = 0, filhos1 = 0, filhos2 = 0, filhos3 = 0, filhos4 = 0, i;
+
+           for (i = 0; i < 50; i++)
+            {
+                Console.WriteLine("Informe a quantidade de filhos: ");
+                filhos = int.Parse(Console.ReadLine()); 
+
+                if (filhos >=1  && filhos <= 3)
+                {
+                    filhos1++;
+                }
+                else if (filhos >= 4 && filhos <= 7)
+                {
+                    filhos2++;
+                }
+                else if (filhos >= 8)
+                {
+                    filhos3++;
+                }
+                else if (filhos == 0)
+                {
+                    filhos4++;
+                }
+               
+            }
+
+            Console.WriteLine("Nenhum filho: " + filhos4);
+            Console.WriteLine("Entre 1 e 3 filhos: " + filhos1);
+            Console.WriteLine("Entre 4 e 7 filhos: " + filhos2);
+            Console.WriteLine("Mais de 8 filhos: " + filhos4);
