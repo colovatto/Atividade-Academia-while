@@ -1,0 +1,33 @@
+int nota = 0, maior = 0, menor = 0, notaTotal = 0, cont = 0;
+            double media = 0;
+            while (true)
+
+            {
+                Console.WriteLine("Informe a nota: ");
+                nota = int.Parse(Console.ReadLine());
+                
+
+                if (nota == -1 ) 
+                {
+                    break;
+                }
+
+                notaTotal = nota + notaTotal;
+                cont++;
+
+                if (nota > maior)
+                {
+                    maior = nota;
+                }
+                if (nota < menor)
+                {
+                    menor = nota;
+                }
+                
+            }
+            media = notaTotal / cont;
+            Console.WriteLine("O maior número é: " + maior);
+            Console.WriteLine("O menor número é: " + menor);
+            Console.WriteLine("A média é: " + media);
+            Console.WriteLine("A qtd de alunos é: " + cont);
+        }
